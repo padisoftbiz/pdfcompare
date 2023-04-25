@@ -26,7 +26,7 @@ import org.im4java.process.InputProvider;
  */
 public class PDFCompare {
 
-    private static String basePath = "D:\\corcentric\\POC\\PDFCompare\\Tested\\Files\\";
+    private static String basePath = "D:\\user\\POC\\PDFCompare\\Tested\\Files\\";
     private static String textDivPattern = " <DIFF> ";
     private static int textDifferenceHeadingFontSize = 12;
     private static int textDiffHorizontalPadding = 40;
@@ -83,7 +83,7 @@ public class PDFCompare {
                 contentStream.drawImage(image, resultImageHorizontalPadding, getVerticalAlingment(height), (width+150), height);
 
             }
-            printFooter(page, contentStream, "Corcentric Inc. PDF Comparison Report");
+            printFooter(page, contentStream, "PDF Comparison Report Footer Part.");
             //close PDPageContentStream object
             contentStream.close();
         }
