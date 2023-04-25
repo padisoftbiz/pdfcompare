@@ -109,14 +109,14 @@ public class PDFCompare {
                     if(count==12){
                         count=0;
                         contentStream.endText(); // End of writing text in PDf
-                        printFooter(page, contentStream, "Corcentric Inc. PDF Comparison Report");
+                        printFooter(page, contentStream, "PDF Comparison Report Footer Part.");
                         contentStream.close();
                         break;
                     }
                 }
                 if(count!=0){
                     contentStream.endText(); // End of writing text in PDf
-                    printFooter(page, contentStream, "Corcentric Inc. PDF Comparison Report");
+                    printFooter(page, contentStream, "PDF Comparison Report Report Footer Part.");
                     contentStream.close();
                 }
             }
