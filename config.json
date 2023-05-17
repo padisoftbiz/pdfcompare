@@ -1,0 +1,14 @@
+{
+  "basePath": ".",
+  "textDivPattern": " <DIFF> ",
+  "textDifferenceHeadingFontSize": 12,
+  "textDiffHorizontalPadding": 40,
+  "textDiffVerticalPadding": 700,
+  "textDiffLineFontSize": 10,
+  "textDiffParaPaddingFromHeading": -20,
+  "textDiffVerticalPaddingForNewLine": -15,
+  "resultImageWidthScal": 350.0,
+  "resultImageHeightScal": 800.0,
+  "resultImageHorizontalPadding": 50,
+  "compareImageResolutionDPI": 600.0
+}
