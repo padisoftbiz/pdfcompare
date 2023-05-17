@@ -342,7 +342,7 @@ public class PDFCompare {
         String pdf2Path = basePath + fileName2;
     
         // Specify the path to the constants JSON file
-        String constantsFilePath = "constants.json";
+        String constantsFilePath = "config.json";
     
         // Generate the PDF comparison report
         generatePDFComparison(constantsFilePath, fileName1, fileName2);
